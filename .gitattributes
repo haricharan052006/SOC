@@ -1,0 +1,9 @@
+# Text files: normalise line endings
+*.m     text diff=matlab
+*.md    text
+*.csv   text
+
+# MATLAB/Simulink binaries: never merge or change line endings
+*.slx   binary
+*.mat   binary
+*.png   binary
